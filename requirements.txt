@@ -1,0 +1,50 @@
+Begin this file.
+
+Maximum ticket price you allow:
+(if you have no idea, just enter a very large number)
+>> 900
+
+Maximum number of stops you allow:
+>> 1
+
+Maximum total hours of duration you allow:
+>> 25
+
+Maximum total hours of layover you allow:
+>> 4
+
+
+
+Time stages:
+	'EM':		Early Morning		12:00am - 4:59am
+	'M':		Morning				5:00am - 11:59am
+	'A':		Afternoon			12:00pm - 5:59pm
+	'E':		Evening				6:00pm - 11:59pm
+	'ALL_TIME'	all time stages
+
+Enter the departure time stages you prefer: (order does not matter)
+(examples: 'E', EM,M', 'M,A,E', 'ALL_TIME', etc)
+>> M,A,E
+
+Enter the arrival time stages you prefer:
+>> M,A,E
+
+
+
+Airline groups:
+	'NA_MAJOR':		American, United, Delta, Air Canada
+	'NA':			American, United, Delta, Air Canada,
+					Southwest, JetBlue, Alaska, Hawaiian, Spirit, Frontier
+	'CN_MAJOR':		Air China, China Eastern, China Southern, Hainan
+	'CN':			Air China, China Eastern, China Southern, Hainan,
+					Shanghai, Shenzhen, Xiamen, Shandong, Tianjin, Sichuan, Juneyao, Spring
+	'ALL':			all NA and CN airlines
+	'MAJOR':		NA_MAJOR and CN_MAJOR
+	'None':			all airlines in the world
+
+Enter the airline(s) or airline group(s) you prefer: (order does not matter)
+(examples: 'American', 'Delta,United', 'American,Air China',
+'NA', 'CN', 'ALL', 'MAJOR', 'NA,CN_MAJOR', 'CN,NA_MAJOR')
+>> MAJOR
+
+End of this file.
